@@ -17,3 +17,12 @@ The aiven platform will be used to create and deploy the following services on t
 **M3** - used for storing realtime metrics at long retention
 
 **Grafana** - used to analyze and visualize data
+
+
+Requirements:
+
+1.) Install juypter notebooks: https://jupyter.org/install
+
+2.) download Aiven-lab.ipynb and images folder.   The images folder must be a subfolder in the folder you are running the notebook from.
+
+3.) download the ca.pem, service.cert and service.key from your aiven kafka service.  Place them in the same folder as the notebook.
